@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q6</title>
+</head>
+
+<body>
+    <!--  Write javascript program to print 1 to n number  and all number sum using do while loop . -->
+        <script type="text/javascript"> 
+        var n = parseInt(prompt("Enter the value of n:-"));
+        var i=1;
+        var sum=0;
+        document.write(`<h2>Sum of all ${n} numbers  are :- <br></h2>`);
+        do{ 
+            sum=sum+i;
+            i++;
+        }while(i<=n);
+        document.write("  "+sum);
+    </script>
+</body>
+
+</html>

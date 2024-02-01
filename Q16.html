@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q16</title>
+</head>
+<body>
+    <!-- 1 10 5 2 9 4 3 8 3 -->
+    <script type="text/javascript">
+        var i;
+        var a=1,b=10,c=5;
+        var x=1,y=2,z=3;
+        var no =parseInt(prompt("Enter any number:- "));
+        for(i=1;i<=no;i++)
+        {
+            if(i==x)
+            {
+                document.write("  "+a);
+                a++;
+                x+=3;
+            }
+            else if(i==y)
+            {
+                document.write("  "+b);
+                b--;
+                y+=3;
+            }
+            else
+            {
+                document.write("  "+c);
+                c--;
+                // x+=3;
+            }
+        }
+    </script>
+</body>
+</html>
